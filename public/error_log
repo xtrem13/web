@@ -1,0 +1,32 @@
+[05-Nov-2020 02:37:14 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:37:23 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:37:40 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:37:44 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:38:15 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:38:20 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:41:08 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:41:11 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:41:33 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:41:37 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:42:01 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:42:16 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:42:21 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:42:26 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:42:30 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:42:35 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:45:07 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:45:10 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:45:19 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:45:22 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:48:20 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:48:24 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:48:37 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:48:44 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:51:26 Asia/Tashkent] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/trzwebuz/public_html/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+[05-Nov-2020 02:52:17 Asia/Tashkent] PHP Fatal error:  Call to undefined function dd() in /home/trzwebuz/public_html/public/index.php on line 5
+[05-Nov-2020 02:52:21 Asia/Tashkent] PHP Fatal error:  Call to undefined function dd() in /home/trzwebuz/public_html/public/index.php on line 5
+[05-Nov-2020 02:52:27 Asia/Tashkent] PHP Fatal error:  Call to undefined function dd() in /home/trzwebuz/public_html/public/index.php on line 5
+[05-Nov-2020 02:53:35 Asia/Tashkent] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/trzwebuz/public_html/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/trzwebuz/public_html/public/index.php on line 5

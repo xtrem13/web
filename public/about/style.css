@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+span {
+    font-weight: 600;
+}
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container  {
+    max-width: 1200px;
+}
+
+
+
+/* 
+
+ABOUT
+
+*/
+
+
+section.about {
+    margin-top: 25px;
+}
+
+.about .col-md-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #898989;
+    position: relative;
+}
+
+.about-title::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 5px;
+    background-color: #2696f8;
+    border-radius: 4px;
+    bottom: -6%;
+    left: 38%;
+}
+
+.about-title h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.about-header {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.first {
+    padding-left: 10px;
+}
+
+.about-header_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.last-span {
+    margin: 30px 0 30px 25px;
+}
+
+.about-header_end span {
+    font-weight: 700;
+    font-family: "Segoe UI Italic";
+}
+
+.about-right {
+   
+}
+
+.about-right img {
+    max-width: 100%;
+    border: 2px solid #0085ff;
+    border-radius: 15px;
+}
+
+/* 
+
+PLANT
+
+*/
+
+
+.plant {
+    margin: 30px 0;
+}
+
+.plant-disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plant-images {
+    margin-top: 50px;
+}
+.plant-images .row .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.plant-images_first {
+    max-width: 305px;
+    max-height: 228px;
+}
+
+.plant-images_first img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0085ff;
+    border-radius: 15px;
+}
+
+.plant-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.plant-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 33px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff!important;
+    background-color: #17a6b7;
+    text-decoration: none!important;
+    border-radius: 19px;
+}
+
+/* 
+
+ANDIJAN
+
+*/
+
+
+.andijan-title span {
+    font-weight: 700;
+    font-family: "Segoe UI Italic";
+}
+
+.andijan-name {
+    margin: 20px 0 5px 0;
+}
+
+.andijan-disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.andijan-images {
+    margin-top: 50px;
+}
+
+.andijan-images .row .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.andijan-images_first {
+    max-width: 305px;
+    max-height: 228px;
+}
+
+.andijan-images_first img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0085ff;
+    border-radius: 15px;
+}
+
+
+
+
+
+/* 
+
+HISTORY
+
+*/
+
+section.history {
+    margin-top: 50px;
+}
+
+.history-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #bcbcbc;
+    position: relative;
+}
+
+.history-title::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 5px;
+    background-color: #2696f8;
+    border-radius: 4px;
+    bottom: -6%;
+    left: 38%;
+}
+
+.history-title h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.history-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.history-name span {
+    font-family: "Segoe UI Italic";
+}
+
+.history-img {
+    display: flex;
+    justify-content: center;
+}
+
+.history-second_img {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.history-gallery {
+    margin-top: 50px;
+}
+
+#first2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gallery-left_date h1 {
+    color: #006cf5;
+}
+
+.gallery-left_disc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery-left_disc p {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.gallery-left_disc span {
+    padding-left: 25px;
+}
+
+.gallery-left_btn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+.gallery-left_btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 32px;
+    color: #3eb4c2;
+    text-decoration: none;
+    border: 1px solid #3eb4c2;
+    border-radius: 15px;
+}
+
+.gallery-left_btn a:hover {
+    background-color: #3eb4c2;
+    color: #fff;
+}
+
+.gallery-right {
+    height: 300px;
+    width: 500px;
+}
+
+.gallery-right img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #2289e1;
+    border-radius: 19px;
+}
+
+.history-gallery .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+#second {
+    margin: 50px 0;
+}
+
+.gallery-left2 {
+    height: 300px;
+    width: 500px;
+}
+
+.gallery-left2 img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #2289e1;
+    border-radius: 19px;
+}
+
+.gallery-right2_disc p {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.gallery-right2_disc span{
+    padding-left: 25px;
+}
+
+#second #second1 {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#second2 {
+
+}
+
+.gallery-right2_date {
+    text-align: right;
+    margin-right: 70px;
+}
+
+.gallery-right2_date h1 {
+    color: #006cf5;
+}
+
+.history-end_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.history-end_btn a {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    width: 250px;
+    height: 35px;
+    background-color: #17a6b7;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 19px;
+}
+
+.history-end_btn a:hover {
+    background-color: #fff;
+    color: #17a6b7;
+    border: 2px solid #17a6b7;
+}
+
+
+
+/* 
+
+MANUAL
+
+*/
+
+section.manual {
+    margin: 50px 0;
+}
+
+.manual-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid #898989;
+    position: relative;
+}
+
+
+
+.manual-title::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 350px;
+    height: 5px;
+    background-color: #2696f8;
+    border-radius: 4px;
+    bottom: -6%;
+    left: 38%;
+}
+
+.manual-title h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.manual-cards {
+    margin-top: 30px;
+}
+
+.manual-cards .col-md-6 {
+    margin-top: 30px;
+}
+
+.idcard .col-md-8 {
+    padding-top: 15px;
+}
+
+
+
+.idcard-img img {
+    max-width: 100%;
+    border: 2px solid #828182;
+}
+
+.idcard-name h3 {
+    color: #0079f6;
+    font-size: 18px;
+}
+
+.idcard-job {
+    position: relative;
+}
+
+.idcard-job span {
+    color: #0079f6;
+    font-size: 16px;
+} 
+
+.idcard-job::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 26%;
+    height: 2px;
+    bottom: 0;
+    background-color: #0079f6;
+    left: 0;
+    top:-4px;
+}
+
+.idcard-data {
+    list-style: none;
+    /* margin-top: 20px; */
+}
+
+.idcard-data li {
+    padding: 3px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.idcard-data li i {
+    color: #0079f6;
+    padding-right: 5px;
+}
+
+.idcard-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0079f6;
+}
+
+.idcard-link a{
+    font-size:15px;
+    margin-right:15px;
+}
+
+.manual-cards .history-img {
+    margin-top: 50px;
+}
+.idcard-job span{
+    font-weight: 400;
+}
