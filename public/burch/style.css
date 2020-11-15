@@ -1,0 +1,211 @@
+section.gallery {
+    margin-top: 50px;
+}
+
+.gallery-title {
+    text-align: center;
+    border-bottom: 1px solid #707070;
+}
+.gallery-title h2 {
+    position: relative;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.gallery-title h2::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 4px;
+    background-color: #2696f8;
+    border-radius: 4px;
+    bottom: -24%;
+    left: 40%;
+}
+
+.gallery-name {
+    font-family: "Segoe UI Italic";
+    margin: 25px 0;
+    text-align: center;
+}
+
+.gallery-name h4 {
+    color: #55adaf;
+    font-weight: 500;
+}
+
+.gallery-disc {
+    margin-top: 25px;
+}
+
+.disc-first span {
+    padding-left: 15px;
+}
+
+.disc-second {
+    margin: 25px 0;
+}
+
+.second-title h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.second-menu {
+    list-style: none;
+    margin: 25px 0;
+    padding-inline-start: 0;
+}
+
+.second-end_title h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.second-end_disc {
+    display: flex;       
+    margin-top: 25px;
+}
+.second-end_disc__first {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.second-end_disc__second {
+    list-style: none;
+}
+
+.gallery-images {
+    margin-top: 50px;
+}
+
+.gallery-images img {
+    height: 250px;
+    width: auto;
+    width:33%;
+    object-fit: cover;
+    margin-bottom:3px;
+    cursor: pointer;
+}
+
+
+.gallery-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.gallery-button a {
+    background-color: #479ba5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 3px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.end-img {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    object-position: center;
+    object-fit: cover;   
+}
+
+
+@media(max-width: 1280px) {
+    .gallery-title h2::after {
+        width: 250px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .gallery-title h2::after {
+        left: 38%;
+        width: 240px;
+    }
+}
+
+@media (max-width: 991px) {
+    .gallery-title h2::after {
+        width: 230px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-title h2::after {
+        width: 220px;
+        left: 35%;
+    }
+    .gallery-images img {
+        width: 243px;
+    }
+}
+
+@media (max-width: 720px) {
+    .gallery-title h2::after {
+        width: 210px;
+        left: 35%;
+    }
+    .gallery-images img {
+        width: 227px;
+    }
+}
+
+@media(max-width: 480px) {
+    .gallery-title h2 {
+        font-size: 32px;
+    }
+    .gallery-title h2::after {
+        width: 170px;
+        left: 31%;
+        bottom: -27%;
+    }
+    .gallery-name h4 {
+        font-size: 20px;
+    }
+    .gallery-images img {
+        width: 222px;
+    }
+    .end-img img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 360px) {
+    .gallery-title h2 {
+        font-size: 28px;
+    }
+    .gallery-title h2::after {
+        width: 145px;
+        left: 28%;
+        bottom: -30%;
+    }
+    .gallery-name h4 {
+        font-size: 18px;
+    }
+    .gallery-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-images img {
+        width: 330px;
+    }
+}
+
+@media (max-width: 320px) {
+    .gallery-images img {
+        width: 300px;
+    }
+    .gallery-title h2::after {
+        width: 140px;
+        left: 26%;
+    }
+}

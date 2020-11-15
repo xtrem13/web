@@ -1,3 +1,6 @@
+@php
+	$l=request()->l;
+@endphp
 <html>
 
 <head>
@@ -7,7 +10,7 @@
 	<link rel="stylesheet" href="{{asset('assets/slick/slick-theme.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/bootstrap-grid.css')}}">
 	<link rel="stylesheet" href="{{asset('assets/layout.css')}}">
-
+	<title>O'ZTEMIRYO'LMASHTA'MIR</title>
 	
 </head>
 
@@ -17,7 +20,7 @@
 		<li><a href="{{route('about', $l)}}" >О ПРЕДПРИЯТИИ</a></li>
 		<li><a href="{{route('manuf', $l)}}">Цеха</a></li>
 		<li><a href="{{route('modern', $l)}}">Модернизация и ЛОКализация</a></li>
-		<li><a href="{{route('structure', $l)}}">ОТДЕЛЫ</a></li>
+		<li><a href="{{route('structures', $l)}}">ОТДЕЛЫ</a></li>
 		<li><a href="{{route('tender', $l)}}">ТЕНДЕР</a></li>
 		<li><a href="{{route('komitets', $l)}}">Комитеты</a></li>
 		<li><a href="{{route('price', $l)}}">Прайс-лист</a></li>
@@ -29,7 +32,7 @@
 				<li><a href="{{route('about', $l)}}" >О ПРЕДПРИЯТИИ</a></li>
 				<li><a href="{{route('manuf', $l)}}">Цеха</a></li>
 				<li><a href="{{route('modern', $l)}}">Модернизация и ЛОКализация</a></li>
-				<li><a href="{{route('structure', $l)}}">ОТДЕЛЫ</a></li>
+				<li><a href="{{route('structures', $l)}}">ОТДЕЛЫ</a></li>
 				<li><a href="{{route('tender', $l)}}">ТЕНДЕР</a></li>
 				<li><a href="{{route('komitets', $l)}}">Комитеты</a></li>
 				<li><a href="{{route('price', $l)}}">Прайс-лист</a></li>

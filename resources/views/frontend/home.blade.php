@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="{{asset('assets/home/css/style.css')}}?t={{time()}}">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap">
-
+	<title>O'ZTEMIRYO'LMASHTA'MIR</title>
 </head>
 
 <body onclick="hide_menu()">
@@ -19,7 +19,7 @@
 		<li><a href="{{route('about', $l)}}" >О ПРЕДПРИЯТИИ</a></li>
 		<li><a href="{{route('manuf', $l)}}">Цеха</a></li>
 		<li><a href="{{route('modern', $l)}}">Модернизация и ЛОКализация</a></li>
-		<li><a href="{{route('structure', $l)}}">ОТДЕЛЫ</a></li>
+		<li><a href="{{route('structures', $l)}}">ОТДЕЛЫ</a></li>
 		<li><a href="{{route('tender', $l)}}">ТЕНДЕР</a></li>
 		<li><a href="{{route('komitets', $l)}}">Комитеты</a></li>
 		<li><a href="{{route('price', $l)}}">Прайс-лист</a></li>
@@ -34,7 +34,7 @@
 						<li><a href="{{route('about', $l)}}" >О ПРЕДПРИЯТИИ</a></li>
 						<li><a href="{{route('manuf', $l)}}">Цеха</a></li>
 						<li><a href="{{route('modern', $l)}}">Модернизация и ЛОКализация</a></li>
-						<li><a href="{{route('structure', $l)}}">ОТДЕЛЫ</a></li>
+						<li><a href="{{route('structures', $l)}}">ОТДЕЛЫ</a></li>
 						<li><a href="{{route('tender', $l)}}">ТЕНДЕР</a></li>
 						<li><a href="{{route('komitets', $l)}}">Комитеты</a></li>
 						<li><a href="{{route('price', $l)}}">Прайс-лист</a></li>
@@ -136,7 +136,7 @@
 								<abbr title="Медиа-тур: Много нового, интересного и актуального на новых объектах метрополитена. Развитие, достижения и перспективы﻿ в годы ... ">Медиа-тур: Много нового, интересного и актуального на новых объектах метрополитена. Развитие, достижения и перспективы﻿ в годы ...
 								</abbr>
 								<div>
-									<button class="more-button">All announcements</button>
+									<button class="more-button">Все новости</button>
 								</div>
 							</div>
 						</div>
@@ -174,7 +174,7 @@
 								<abbr title="Медиа-тур: Много нового, интересного и актуального на новых объектах метрополитена. Развитие, достижения и перспективы﻿ в годы ... ">Медиа-тур: Много нового, интересного и актуального на новых объектах метрополитена. Развитие, достижения и перспективы﻿ в годы ...
 								</abbr>
 								<div>
-									<button class="more-button">All announcements</button>
+									<button class="more-button">Все новости</button>
 								</div>
 							</div>
 						</div>
@@ -202,7 +202,7 @@
 							<img src="{{asset('images/icon1.png')}}"/>
 						</div>
 						<div class="inter-text">
-							<span>Открытые данные</span>
+							<span>Страница Президента</span>
 						</div>
 					</a>
 				</div>
@@ -222,7 +222,7 @@
 							<img src="{{asset('images/icon3.png')}}"/>
 						</div>
 						<div class="inter-text">
-							<span>Открытые данные</span>
+							<span>Сертификаты</span>
 						</div>
 					</a>
 				</div>
@@ -232,7 +232,7 @@
 							<img src="{{asset('images/icon4.png')}}"/>
 						</div>
 						<div class="inter-text">
-							<span>Открытые данные</span>
+							<span>Наши Партнеры</span>
 						</div>
 					</a>
 				</div>
@@ -242,7 +242,7 @@
 							<img src="{{asset('images/icon5.png')}}"/>
 						</div>
 						<div class="inter-text">
-							<span>Открытые данные</span>
+							<span>Отправить обращение</span>
 						</div>
 					</a>
 				</div>
@@ -252,7 +252,7 @@
 							<img src="{{asset('images/icon6.png')}}"/>
 						</div>
 						<div class="inter-text">
-							<span>Открытые данные</span>
+							<span>Проверить статус обращение</span>
 						</div>
 					</a>
 				</div>
@@ -262,7 +262,7 @@
 							<img src="{{asset('images/icon7.png')}}"/>
 						</div>
 						<div class="inter-text">
-							<span>Открытые данные</span>
+							<span>График приема</span>
 						</div>
 					</a>
 				</div>
@@ -272,7 +272,7 @@
 							<img src="{{asset('images/icon8.png')}}"/>
 						</div>
 						<div class="inter-text">
-							<span>Открытые данные</span>
+							<span>120 лет "O'ztemiryo'lmashta'mir"</span>
 						</div>
 					</a>
 				</div>
@@ -424,7 +424,7 @@
 		<div class="container">
 			<div class="title">
 				<div>
-					<h2>Полезные ссылки</h2>
+					<h2>Наши Партнеры</h2>
 					<div class="arrows">
 						<i class="fa fa-angle-left use-left-2"></i>
 						<i class="fa fa-angle-right use-right-2"></i>

@@ -190,6 +190,7 @@ section{
 	text-decoration: none;
 	color: white;
 	border-radius: 10px;
+	height: 100%;
 }
 .inter-icon{
 	min-height: 150px;

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Management;
 use App\Models\ZavodsGallery;
 use App\Models\ManufGallery;
+use App\Models\Structure_gallery;
 
 class FrontendController extends Controller
 {
@@ -48,21 +49,6 @@ class FrontendController extends Controller
     public function manuf(Request $req){
     	return $this->view('manufactures.list', $req->l);
     }
-    public function modern(Request $req){
-    	return $this->view('modern', $req->l);
-    }
-    public function structure(Request $req){
-    	return $this->view('structure', $req->l);
-    }
-    public function tender(Request $req){
-    	return $this->view('tender', $req->l);
-    }
-    public function komitets(Request $req){
-    	return $this->view('komitets', $req->l);
-    }
-    public function price(Request $req){
-    	return $this->view('price', $req->l);
-    }
     public function onemanuf(Request $req){
         $data['manufacture']=Store::$manufactures[$req->id]??false;
         if($data['manufacture'])
@@ -74,4 +60,40 @@ class FrontendController extends Controller
         $data['images']=ManufGallery::all();
         return $this->view('manufactures.gallery', $req->l, $data);
     }
+    public function modern(Request $req){
+        $data['moderns']=Store::$modern;
+    	return $this->view('modern.modern', $req->l, $data);
+    }
+    public function modern_gallery(Request $req){
+        $data['gallery']=Store::$modern[$req->id];
+        return $this->view('modern.gallery', $req->l, $data);
+    }
+    public function structure(Request $req){
+        $data['structures']=Store::$structures;
+    	return $this->view('structures.list', $req->l, $data);
+    }
+    public function str(Request $req){
+        $data['str']=Store::$structures[$req->id]??false;
+        if($data['str'])
+            return $this->view('structures.one', $req->l, $data);
+        abort(404);  
+    }
+    public function str_gal(Request $req){
+        $data['str']=Store::$structures[$req->id];
+        $data['images']=Structure_gallery::where('structure_id',$req->id)->get();
+        return $this->view('structures.gallery', $req->l, $data);
+    }
+    public function tender(Request $req){
+    	return $this->view('tender', $req->l);
+    }
+    public function komitets(Request $req){
+    	return $this->view('komitets.komitets', $req->l);
+    }
+    public function price(Request $req){
+    	return $this->view('price', $req->l);
+    }
+    public function prof_komitet(Request $req){
+        return $this->view('prof_komitet');
+    }
+    
 }

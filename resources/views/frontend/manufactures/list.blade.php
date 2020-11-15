@@ -44,6 +44,14 @@
 	.endimage img{
 		max-width: 60%;
 	}
+	.img-cont img{
+		height:350px;
+		object-fit: cover;
+		width:80%;
+	}
+	.right .img-cont{
+		text-align: left;
+	}
 	@media (max-width: 768px){
 		*{
 			text-align:center !important;
@@ -55,7 +63,7 @@
 </style>
 <div class="container">
 	<div class="page-title">
-		<h2>Manufacturing</h2>
+		<h2>Цеха</h2>
 		<hr>
 		<hr class="blue">
 	</div>
@@ -63,12 +71,12 @@
 <div class="container manufactures">
 	<div class="row manuf">
 		<div class="col-md-6">
-			<h2>Some Title</h2>
+			<h2>Локомотивосборочный цех</h2>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eligendi inventore deleniti illum qui. A nostrum, eligendi sed at ea est similique, nesciunt ipsam cumque modi quos, facere, amet nulla!
+				Локомотивосборочный цех является основным цехом предприятия в котором выполняется ремонт тепловозов, электровозов и вагонов в соответствии с действующим «Правилами заводского ремонта», 	а так же модернизация локомотивов и вагонов.
 			</p>
 			<div class="more-button">
-				<a class="btn-blue" href="{{route('onemanuf',['l'=>$l, 'id'=>1])}}">More</a>
+				<a class="btn-blue" href="{{route('onemanuf',['l'=>$l, 'id'=>1])}}">Подробно</a>
 			</div>
 			<div class="endsection">
 				<hr>
@@ -76,20 +84,20 @@
 			</div>
 		</div>
 		<div class="col-md-6 img-cont">
-			<img src="{{asset('images/h1.jpg')}}" alt="" class="bordered">
+			<img src="{{asset('manufactures/m1.png')}}" alt="" class="bordered">
 		</div>
 	</div>
 	<div class="row manuf right">
-		<div class="col-md-6">
-			<img src="{{asset('images/h1.jpg')}}" alt="" class="bordered">
+		<div class="col-md-6 img-cont">
+			<img src="{{asset('manufactures/m2.png')}}" alt="" class="bordered">
 		</div>
 		<div class="col-md-6 order-sm-0">
-			<h2>Some Title</h2>
+			<h2>Локомотивосборочный цех</h2>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eligendi inventore deleniti illum qui. A nostrum, eligendi sed at ea est similique, nesciunt ipsam cumque modi quos, facere, amet nulla!
+				Локомотивосборочный цех является основным цехом предприятия в котором выполняется ремонт тепловозов, электровозов и вагонов в соответствии с действующим «Правилами заводского ремонта», 	а так же модернизация локомотивов и вагонов.
 			</p>
 			<div class="more-button">
-				<a class="btn-blue" href="{{route('onemanuf',['l'=>$l, 'id'=>2])}}">More</a>
+				<a class="btn-blue" href="{{route('onemanuf',['l'=>$l, 'id'=>2])}}">Подробно</a>
 			</div>
 			<div class="endsection">
 				<hr>

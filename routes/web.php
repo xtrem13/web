@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+function f($path){
+	$data['body']='frontend.'.$path;
+	return $data;
+}
+
 // image retriver
 Route::get('img', function () {
     $path = urldecode($_GET['path']);
@@ -33,15 +38,31 @@ Route::namespace('App\Http\Controllers')->group(function () {
 		// about us
 		Route::get("/about", "FrontendController@about")->name("about");
 		// manufactures
-		Route::get("/manuf", "FrontendController@manuf")->name("manuf");
+		Route::get("/manufactures", "FrontendController@manuf")->name("manuf");
+		// one manufacture
+		Route::get("/manufacture/{id}", "FrontendController@onemanuf")->name("onemanuf");
+		// one manufacture gallery
+		Route::get("/manufgallery/{id}", "FrontendController@manufgallery")->name("manufgallery");
 		// modernization
 		Route::get("/modern", "FrontendController@modern")->name("modern");
+		// modernization gallery
+		Route::get("/modern/{id}", "FrontendController@modern_gallery")->name("modern_gallery");
+		
 		// structure of factory
-		Route::get("/structure", "FrontendController@structure")->name("structure");
+		Route::get("/structures", "FrontendController@structure")->name("structures");
+		Route::get("/str/{id}", "FrontendController@str")->name("one_str");
+		// one manufacture gallery
+		Route::get("/str_gal/{id}", "FrontendController@str_gal")->name("str_gal");
 		// tenders
 		Route::get("/tender", "FrontendController@tender")->name("tender");
 		// komitets
-		Route::get("/komitets", "FrontendController@komitets")->name("komitets");
+		Route::view("/komitets",'frontend.index', f('komitets.komitets'))->name('komitets');
+		// one prof_komitet
+		Route::view("/prof_komitet", 'frontend.index',f('komitets.prof_komitet'))->name("prof_komitet");
+		// soyuz molodeji
+		Route::view("/commity/{title}",'frontend.index', f('komitets.gallery'))->name("commity");
+		// soyuz molodeji
+		Route::view("/burchimullo",'frontend.index', f('komitets.burchimullo'))->name("burchimullo");
 		// komitets
 		Route::get("/price", "FrontendController@price")->name("price");
 		// one zavod
@@ -52,10 +73,7 @@ Route::namespace('App\Http\Controllers')->group(function () {
 		Route::get("/history/{id}", "FrontendController@history")->name("history");
 		// historical_gallery
 		Route::get("/historical_gallery", "FrontendController@historical_gallery")->name("historical_gallery");
-		// one manufacture
-		Route::get("/manuf/{id}", "FrontendController@onemanuf")->name("onemanuf");
-		// one manufacture gallery
-		Route::get("/manufgallery/{id}", "FrontendController@manufgallery")->name("manufgallery");
+		
 		
 	});
 });
